@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nachhilfe für Jura Studierende und Referendare</title>
+    <link rel="icon" href="C:\Users\YusufKaraman\Downloads\DALL·E 2024-08-05 15.12.46 - A simple, professional icon for a legal tutoring service. The icon should feature elements like a book, a gavel, or scales of justice, designed in a c.webp" type="image/x-icon">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+            text-align: center;
+        }
+        .header {
+            background: #1d1d1f;
+            color: white;
+            padding: 2em 0;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        .content {
+            text-align: center;
+        }
+        .content h2 {
+            color: #1d1d1f;
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #515154;
+            text-align: center;
+            margin: 0 auto 20px;
+            max-width: 800px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        .contact {
+            margin-top: 30px;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #0071e3;
+            font-weight: bold;
+            font-size: 1.2em;
+            display: inline-block;
+            margin: 10px;
+            transition: color 0.3s;
+        }
+        .contact a:hover {
+            color: #005bb5;
+        }
+        .impressum-link {
+            display: block;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #a1a1a6;
+            text-decoration: none;
+        }
+        .impressum-link:hover {
+            color: #707070;
+        }
+        .impressum {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #515154;
+        }
+        .impressum.active {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 20px;
+            }
+            .header h1 {
+                font-size: 2em;
+            }
+            .content h2 {
+                font-size: 1.5em;
+            }
+            .content p {
+                font-size: 1em;
+            }
+        }
+        /* Scroll effects */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        .fade-in.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var fadeInElements = document.querySelectorAll('.fade-in');
+
+            function checkScroll() {
+                fadeInElements.forEach(function(element) {
+                    var rect = element.getBoundingClientRect();
+                    if (rect.top < window.innerHeight && rect.bottom > 0) {
+                        element.classList.add('show');
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', checkScroll);
+            checkScroll();
+        });
+
+        function toggleImpressum() {
+            var impressum = document.getElementById('impressum');
+            if (impressum.classList.contains('active')) {
+                impressum.classList.remove('active');
+            } else {
+                impressum.classList.add('active');
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="header fade-in">
+        <h1>Erfolgreicher Anwalt bietet Nachhilfe für Jura Studierende und Referendare</h1>
+    </div>
+    <div class="container fade-in">
+        <div class="content">
+            <h2>Über mich</h2>
+            <p>Ich bin ein erfolgreicher Anwalt in einer Großkanzlei und biete dir professionelle Nachhilfe an, um sicherzustellen, dass du deine Prüfungen bestehst – idealerweise mit sehr guten Noten!</p>
+            <p>Ich habe in Rechtswissenschaften promoviert und mehrere Masterstudiengänge abgeschlossen. Mit meiner langjährigen Erfahrung in der juristischen Praxis werde ich alles dafür tun, dass du erfolgreich bist.</p>
+            <img src="C:\Users\YusufKaraman\Downloads\DALL·E 2024-08-05 14.46.42 - A professional lawyer in a modern office setting, with bookshelves filled with law books in the background. The lawyer is sitting at a desk with a lap.webp" alt="Erfolgreicher Anwalt bietet Nachhilfe">
+            <h2>Warum Nachhilfe im Jurastudium wichtig ist</h2>
+            <p>Das Jurastudium gehört zu den anspruchsvollsten Studiengängen und erfordert ein tiefes Verständnis komplexer rechtlicher Zusammenhänge. Viele Studierende haben Schwierigkeiten, den umfangreichen Stoff allein zu bewältigen. Hier kommt professionelle Nachhilfe ins Spiel. Mit gezielter Unterstützung kannst du Lücken schließen, schwierige Themen besser verstehen und dich optimal auf Prüfungen vorbereiten.</p>
+            <h2>Vorteile, von einem erfahrenen Anwalt unterrichtet zu werden</h2>
+            <p>Als erfahrener Anwalt bringe ich nicht nur theoretisches Wissen, sondern auch praktische Erfahrung in den Unterricht ein. Du profitierst von meinem Insider-Wissen, meinen praktischen Tipps und meinem Verständnis für die Anforderungen des Berufslebens. So bekommst du nicht nur Unterstützung beim Lernen, sondern auch wertvolle Einblicke in die juristische Praxis.</p>
+            <h2>Finanzieller Aufwand und künftige Verdienstchancen</h2>
+            <p>Die Investition in Nachhilfe mag zunächst hoch erscheinen, aber sie ist im Vergleich zu den künftigen Verdienstchancen eines erfolgreichen Juristen mehr als fair. Mit einer soliden Ausbildung und hervorragenden Noten stehen dir in der juristischen Karriere alle Türen offen. Die Nachhilfe hilft dir, diese Basis zu schaffen und später von den hohen Verdienstmöglichkeiten zu profitieren.</p>
+            <h2>Angebot</h2>
+            <p>Einzelstunde: 150 € pro Stunde</p>
+            <p>Gruppenstunde (2 Personen): 100 € pro Person und Stunde</p>
+            <h2>Kontaktiere mich</h2>
+            <p>Kontaktiere mich jetzt und sichere dir deinen Erfolg in der juristischen Ausbildung!</p>
+            <div class="contact">
+                <p><a href="mailto:herrjurist@gmail.com">herrjurist@gmail.com</a></p>
+                <p><a href="tel:+491234567890">+49 123 456 7890</a></p>
+            </div>
+            <a href="javascript:void(0);" class="impressum-link" onclick="toggleImpressum()">Impressum</a>
+            <div id="impressum" class="impressum">
+                <p>Nachname, Vorname</p>
+                <p>Straße Hausnummer</p>
+                <p>PLZ Ort</p>
+                <p>Telefon: +49 123 456 7890</p>
+                <p>E-Mail: herrjurist@gmail.com</p>
+                <p>Berufsbezeichnung: Rechtsanwalt (verliehen in Deutschland)</p>
+                <p>Zuständige Kammer: Rechtsanwaltskammer Beispielstadt</p>
+                <p>Umsatzsteuer-ID: DE123456789</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
